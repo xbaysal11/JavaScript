@@ -1,6 +1,7 @@
 // Splitting var
 var names = "flash, zoom, savitar, reverse, black-flash, god-flash";
 var arr = names.split(", ");
+// splitting every elem => .split('');
 console.log(arr);
 
 //printing each elem
