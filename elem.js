@@ -1,5 +1,5 @@
 // printing elements in words
+var name = "javascript";
 for (let j = 0; j < name.length; j++) {
-  const elem = name[j];
-  console.log(elem);
+  console.log(name[j]);
 }
