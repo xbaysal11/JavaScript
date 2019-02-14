@@ -5,7 +5,7 @@ const compareString = (a, b) => {
 
   console.log(name1, name2);
 
-  isNaN(a) ? console.log(!(name1 > name2)) : console.log(name1 > name2);
+  isNaN(a, b) ? console.log(!(name1 > name2)) : console.log(+name1 > +name2);
 };
 
 //user input
