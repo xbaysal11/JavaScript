@@ -1,7 +1,11 @@
-var n = prompt("", "");
+//user input
+var inp = prompt("", "100");
+//number formatting
+inp = Number(inp);
 
+//Function SumTo
 const sumTo = n => {
-  return n ? n - sumTo(n - 1) : 1;
+  return n == 1 ? 1 : n + sumTo(n - 1);
 };
-
-console.log(sumTo(n));
+//log
+console.log(sumTo(inp));
